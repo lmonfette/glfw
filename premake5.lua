@@ -29,8 +29,6 @@ project "glfw"
     filter "system:macosx"
         -- Add MacOSX-specific settings if needed
 
-        links { "X11.framework", "vulkan" }
-
         defines
         {
             "_GLFW_COCOA"
