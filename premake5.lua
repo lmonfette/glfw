@@ -6,8 +6,7 @@ project "glfw"
     -- Add your source files here
     files {
         "src/**.h",
-        "src/**.c",
-        "src/**.m"
+        "src/**.c"
     }
     
     filter "system:windows"
@@ -29,6 +28,10 @@ project "glfw"
 
     filter "system:macosx"
         -- Add MacOSX-specific settings if needed
+
+        files {
+            "src/**.m"
+        }
 
         defines
         {
