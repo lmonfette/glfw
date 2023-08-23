@@ -15,7 +15,8 @@ project "glfw"
 
         defines
         {
-            "_GLFW_WIN32"
+            "_GLFW_WIN32",
+            "_CRT_SECURE_NO_WARNINGS"
         }
     
     filter "system:linux"
