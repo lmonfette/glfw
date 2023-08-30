@@ -10,7 +10,7 @@ project "glfw"
     }
     
     filter "system:windows"
-        -- Add Windows-specific settings if needed
+        architecture "x86_64"
 
         defines
         {
